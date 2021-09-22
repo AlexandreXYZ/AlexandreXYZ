@@ -1,9 +1,14 @@
 # Quem sou eu?
 Olá, meu nome é Alexandre, tenho 17 anos e estou bem focado em desenvolvimento front-end com React
-Esses são os meus principais projetos: 
 
-[Memorize](https://github.com/Studio-024/memorize)
-[CGE](https://github.com/AlexandreXYZ/CGE)
+## Esses são os meus principais projetos: 
+
+#### Um site de *Flahscards* desenvolvido em equipe do zero:
+[![Memorize](https://img.shields.io/badge/Memorize-purple?style=for-the-badge&link=https://github.com/Studio-024/memorize)](https://github.com/Studio-024/memorize)
+<br>
+#### Um *Calibrador de Gnomon Eletrônico*, esse é o meu TCC:
+[![CGE](https://img.shields.io/badge/CGE-orange?style=for-the-badge&link=https://github.com/AlexandreXYZ/CGE)](https://github.com/AlexandreXYZ/CGE) 
+
 
 # O que eu sei?
 

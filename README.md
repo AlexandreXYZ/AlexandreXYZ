@@ -1,5 +1,5 @@
 # Quem sou eu?
-Olá, meu nome é Alexandre, tenho 17 anos e estou bem focado em desenvolvimento front-end com React
+Olá, meu nome é Alexandre, tenho 17 anos e estou bem focado em desenvolvimento front-end com React.
 
 ## Esses são os meus principais projetos: 
 
@@ -12,7 +12,7 @@ Olá, meu nome é Alexandre, tenho 17 anos e estou bem focado em desenvolvimento
 
 # O que eu sei?
 
-## Programação
+## Programação:
   
 ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![SASS](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)
@@ -26,7 +26,7 @@ Olá, meu nome é Alexandre, tenho 17 anos e estou bem focado em desenvolvimento
 <br>
 ![MySQL](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white)
 
-## Ferramentas
+## Ferramentas:
 ![Status](https://img.shields.io/badge/Yarn-2C8EBB?style=for-the-badge&logo=yarn&logoColor=white)
 ![Status](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 <br>
@@ -39,7 +39,7 @@ Olá, meu nome é Alexandre, tenho 17 anos e estou bem focado em desenvolvimento
 ![Status](https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white)
 ![Status](https://img.shields.io/badge/Trello-0052CC?style=for-the-badge&logo=trello&logoColor=white)
 
-## Os meus dados do GitHub
+## Os meus dados do GitHub:
 ![Status](https://github-readme-stats.vercel.app/api?username=AlexandreXYZ)
 ![Status](https://github-readme-streak-stats.herokuapp.com/?user=AlexandreXYZ)
 

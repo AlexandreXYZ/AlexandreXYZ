@@ -1,7 +1,12 @@
-<!-- <div align="center"> -->
-  
-# Tudo o que eu sei ⭐
-  
+# Quem sou eu?
+Olá, meu nome é Alexandre, tenho 17 anos e estou bem focado em desenvolvimento front-end com React
+Esses são os meus principais projetos: 
+
+[Memorize](https://github.com/Studio-024/memorize)
+[CGE](https://github.com/AlexandreXYZ/CGE)
+
+# O que eu sei?
+
 ## Programação
   
 ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
@@ -15,6 +20,7 @@
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 <br>
 ![MySQL](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white)
+
 ## Ferramentas
 ![Status](https://img.shields.io/badge/Yarn-2C8EBB?style=for-the-badge&logo=yarn&logoColor=white)
 ![Status](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
@@ -28,13 +34,19 @@
 ![Status](https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white)
 ![Status](https://img.shields.io/badge/Trello-0052CC?style=for-the-badge&logo=trello&logoColor=white)
 
+## Os meus dados do GitHub
 ![Status](https://github-readme-stats.vercel.app/api?username=AlexandreXYZ)
 ![Status](https://github-readme-streak-stats.herokuapp.com/?user=AlexandreXYZ)
-<!-- </div> -->
 
+---
 
+## Entre com contato:
 
-
+[![Twitter Badge](https://img.shields.io/badge/-@Alexandre__XYZ__-1ca0f1?style=flat-square&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/Alexandre_XYZ_)](https://twitter.com/Alexandre_XYZ_)
+<br>
+[![Linkedin Badge](https://img.shields.io/badge/-Alexandre%20Costa%20Belettini-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/alexandrexyz/)](https://www.linkedin.com/in/alexandrexyz/) 
+<br>
+[![Gmail Badge](https://img.shields.io/badge/-costaalexandre45@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:costaalexandre45@gmail.com)](mailto:costaalexandre45@gmail.com)
 
 <!--
 **AlexandreXYZ/AlexandreXYZ** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.

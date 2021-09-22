@@ -40,8 +40,8 @@ Olá, meu nome é Alexandre, tenho 17 anos e estou bem focado em desenvolvimento
 ![Status](https://img.shields.io/badge/Trello-0052CC?style=for-the-badge&logo=trello&logoColor=white)
 
 ## Os meus dados do GitHub:
-![Status](https://github-readme-stats.vercel.app/api?username=AlexandreXYZ)
-![Status](https://github-readme-streak-stats.herokuapp.com/?user=AlexandreXYZ)
+![Status](https://github-readme-streak-stats.herokuapp.com/?user=AlexandreXYZ&theme=highcontrast)
+![Status](https://github-readme-stats.vercel.app/api?username=AlexandreXYZ&theme=highcontrast)
 
 ---
 

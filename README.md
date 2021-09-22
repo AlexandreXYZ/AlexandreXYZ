@@ -45,7 +45,7 @@ Olá, meu nome é Alexandre, tenho 17 anos e estou bem focado em desenvolvimento
 
 ---
 
-## Entre com contato:
+## Entre em contato:
 
 [![Twitter Badge](https://img.shields.io/badge/-@Alexandre__XYZ__-1ca0f1?style=flat-square&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/Alexandre_XYZ_)](https://twitter.com/Alexandre_XYZ_)
 <br>

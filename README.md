@@ -1,6 +1,3 @@
-# Quem sou eu?
-Olá, meu nome é Alexandre, tenho 17 anos e estou bem focado em desenvolvimento front-end com React.
-
 ## Esses são os meus principais projetos: 
 
 #### Um site de *Flahscards* desenvolvido em equipe do zero:

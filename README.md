@@ -1,13 +1,14 @@
 ## Esses são os meus principais projetos: 
 
-#### Um site de *Flahscards* desenvolvido em equipe do zero:
+#### *Memorize*, um site de *Flahscards* desenvolvido em equipe: 
 [![Memorize](https://img.shields.io/badge/Memorize-purple?style=for-the-badge&link=https://github.com/Studio-024/memorize)](https://github.com/Studio-024/memorize)
 <br>
-#### Um *Calibrador de Gnomon Eletrônico*, esse é o meu TCC:
+#### *Calibrador de Gnomon Eletrônico*, esse é o meu TCC:
 [![CGE](https://img.shields.io/badge/CGE-orange?style=for-the-badge&link=https://github.com/AlexandreXYZ/CGE)](https://github.com/AlexandreXYZ/CGE) 
 
+----
 
-# O que eu sei?
+# Habilidades
 
 ## Programação:
   
@@ -24,6 +25,7 @@
 <br>
 ![MySQL](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white)
 
+
 ## Ferramentas:
 ![Status](https://img.shields.io/badge/Yarn-2C8EBB?style=for-the-badge&logo=yarn&logoColor=white)
 ![Status](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
@@ -37,11 +39,13 @@
 ![Status](https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white)
 ![Status](https://img.shields.io/badge/Trello-0052CC?style=for-the-badge&logo=trello&logoColor=white)
 
+----
+
 ## Os meus dados do GitHub:
 ![Status](https://github-readme-streak-stats.herokuapp.com/?user=AlexandreXYZ&theme=highcontrast)
 ![Status](https://github-readme-stats.vercel.app/api?username=AlexandreXYZ&theme=highcontrast)
 
----
+----
 
 ## Entre em contato:
 

@@ -43,8 +43,8 @@
 
 ## Os meus dados do GitHub:
 ![Status](https://github-readme-streak-stats.herokuapp.com/?user=AlexandreXYZ&theme=highcontrast)
-![Status](https://github-readme-stats.vercel.app/api?username=AlexandreXYZ&theme=highcontrast)
-
+<!-- ![Status](https://github-readme-stats.vercel.app/api?username=AlexandreXYZ&theme=highcontrast)
+ -->
 ----
 
 ## Entre em contato:

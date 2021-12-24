@@ -23,7 +23,7 @@
 |![NodeJS](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)![MySQL](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white)| ![Notion](https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white)![Trello](https://img.shields.io/badge/Trello-0052CC?style=for-the-badge&logo=trello&logoColor=white) 
 
 <!-- | <img width="100px" src='./assets/tech/Js.png'> | <img width="100px" src='./assets/tech/HTML5.png'> | -->
-| -------------------------------- | -------------------------------- | 
+<!-- | -------------------------------- | -------------------------------- |  -->
 
 ----
 

@@ -22,10 +22,12 @@
 ![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)|![Yarn](https://img.shields.io/badge/Yarn-2C8EBB?style=for-the-badge&logo=yarn&logoColor=white)![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 |![NodeJS](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)![MySQL](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white)| ![Notion](https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white)![Trello](https://img.shields.io/badge/Trello-0052CC?style=for-the-badge&logo=trello&logoColor=white) 
 
-<!-- | <img width="100px" src='./assets/tech/Js.png'> | <img width="100px" src='./assets/tech/HTML5.png'> | -->
-<!-- | -------------------------------- | -------------------------------- |  -->
-
-----
+<!-- | <img width="80px" height="80px" src='./assets/tech/Js.png'> <br> JavaScript | <img width="80px" height="80px" src='./assets/tech/TypeScript.png'> <br> TypeScript | <img width="80px" height="80px" src='./assets/tech/NodeJs.jpeg'> <br> NodeJS | <img width="80px" height="80px" src='./assets/tech/Prisma.png'> <br> Prisma |
+| -------------------------------- | -------------------------------- | -------------------------------- | -------------------------------- | 
+| <img width="80px" height="80px" src='./assets/tech/ReactJS.png'> <br> ReactJS | <img width="80px" height="80px" src='./assets/tech/React-Router.png'> <br> React Router | <img width="80px" height="80px" src='./assets/tech/NextJs.png'> <br> HTML | <img width="80px" height="80px" src='./assets/tech/Redux.png'> <br>  |
+| <img width="80px" height="80px" src='./assets/tech/'> <br>  | <img width="80px" height="80" src='./assets/tech/'> <br>  | <img width="80px" height="80px" src='./assets/tech/'> <br>  | <img width="80px" height="80px" src='./assets/tech/'> <br>  |
+| <img width="80px" height="80px" src='./assets/tech/'> <br>  | <img width="80px" height="80px" src='./assets/tech/'> <br>  | <img width="80px" height="80px" src='./assets/tech/'> <br> Redux | <img width="80px" height="80px" src='./assets/tech/'> <br> NextJS |
+---- -->
 
 ## Dados do GitHub
 ![Status](https://github-readme-streak-stats.herokuapp.com/?user=AlexandreXYZ&theme=highcontrast)

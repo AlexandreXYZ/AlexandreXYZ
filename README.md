@@ -7,6 +7,7 @@
 | ------- | --------- | ------ | -------- | ------ |
 | <div align="center"> [![Memorize](https://img.shields.io/badge/Memorize-purple?style=for-the-badge&link=https://github.com/Studio-024/memorize)](https://github.com/Studio-024/memorize) </div> | Site de _flashcards_ | Desenvolvedor Front-end | - Foi realizado em equipe; <br> - As principais tecnologias foram: TypeScript e ReactJS | ![Status](https://img.shields.io/badge/Concluído-green?style=for-the-badge)
 | <div align="center"> [![CGE](https://img.shields.io/badge/CGE-orange?style=for-the-badge&link=https://github.com/AlexandreXYZ/CGE)](https://github.com/AlexandreXYZ/CGE) </div> | Algoritmo que produz dados comparativos com de um Gnômon Eletrônico | Desenvolvedor Full Stack | Esse é o meu TCC para finalização do curso de informática do IFC | ![Status](https://img.shields.io/badge/Concluído-green?style=for-the-badge) |
+| <div align="center"> [![Self-Wiser](https://img.shields.io/badge/Self%20Wiser-340763?style=for-the-badge&link=https://github.com/Studio-024/self-wiser)](https://github.com/Studio-024/self-wiser) </div> | Blog que estou construindo para postar artigos | Desenvolvedor Front-end | - Está sendo realizado em equipe; <br> - As principais tecnologias são: TypeScript, ReactJS e NextJS | ![Status](https://img.shields.io/badge/Construção-purple?style=for-the-badge)
 
 ---- 
 

@@ -1,3 +1,17 @@
+## 🌟Olá, Bem vindo ao meu github🌟
+
+Nele eu tenho alguns Projetos (dei uma parada com eles então estão tudo desatualizado com o meu conhecimento), os principais tá na organização [Studio 24](https://github.com/Studio-024), normalmente nesses projetos eu mexo no front com React, SASS e TypeScript.
+
+
+Estou disponivel para contribuir em projetos, só entrar em contado 🙂
+
+## Contato
+
+[![Linkedin Badge](https://img.shields.io/badge/-Alexandre%20Costa%20Belettini-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/alexandrexyz/)](https://www.linkedin.com/in/alexandrexyz/) 
+<br>
+[![Gmail Badge](https://img.shields.io/badge/-costaalexandre45@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:costaalexandre45@gmail.com)](mailto:costaalexandre45@gmail.com)
+
+
 <div align="center">
 <!-- 
 
@@ -26,22 +40,19 @@ Template
 |<div align='center'> <img width="80px" height="80px" src='./assets/tech/'> <br> </div> |<div align='center'> <img width="80px" height="80px" src='./assets/tech/'> <br> </div> |<div align='center'> <img width="80px" height="80px" src='./assets/tech/'> <br> </div>|<div align='center'> <img width="80px" height="80px" src='./assets/tech/'> <br> </div>| 
 
 -->
-----
+<!-- ---- -->
 
 <!-- ## Dados do GitHub -->
-<a href="https://app.daily.dev/AlexandreXYZ"><img src="https://api.daily.dev/devcards/16940da6f01847b286321764bf3afce6.png?r=equ" width="200" alt="Alexandre Costa Belettini's Dev Card"/></a> <br>
+<!-- <a href="https://app.daily.dev/AlexandreXYZ"><img src="https://api.daily.dev/devcards/16940da6f01847b286321764bf3afce6.png?r=equ" width="200" alt="Alexandre Costa Belettini's Dev Card"/></a> <br> -->
 <!-- ![Status](https://github-readme-streak-stats.herokuapp.com/?user=AlexandreXYZ&theme=highcontrast) -->
 <!-- ![Status](https://github-readme-stats.vercel.app/api?username=AlexandreXYZ&theme=highcontrast)
  -->
-----
+<!-- ---- -->
 <!-- 
 ## Entre em contato
 
 [![Twitter Badge](https://img.shields.io/badge/-@Alexandre__XYZ__-1ca0f1?style=flat-square&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/Alexandre_XYZ_)](https://twitter.com/Alexandre_XYZ_)
 <br>
-[![Linkedin Badge](https://img.shields.io/badge/-Alexandre%20Costa%20Belettini-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/alexandrexyz/)](https://www.linkedin.com/in/alexandrexyz/) 
-<br>
-[![Gmail Badge](https://img.shields.io/badge/-costaalexandre45@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:costaalexandre45@gmail.com)](mailto:costaalexandre45@gmail.com)
 
 </div> -->
 

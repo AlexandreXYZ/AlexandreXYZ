@@ -1,9 +1,10 @@
 ## 🌟Olá, Bem vindo ao meu github🌟
 
 Nele eu tenho alguns Projetos (dei uma parada com eles então estão tudo desatualizado com o meu conhecimento), os principais tá na organização [Studio 24](https://github.com/Studio-024), normalmente nesses projetos eu mexo no front com React, SASS e TypeScript.
+Aqui anda meio parado, porque a empresa que trabalho usa gitlab, mas faço commit todos os dia hahahaha
 
 
-Estou disponivel para contribuir em projetos, só entrar em contado 🙂
+<!-- Estou disponivel para contribuir em projetos, só entrar em contado 🙂 -->
 
 ## Contato
 

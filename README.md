@@ -2,8 +2,8 @@
 
 ## Contato
 
-[![Linkedin Badge](https://img.shields.io/badge/-Alexandre%20Costa%20Belettini-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/alexandrexyz/)](https://www.linkedin.com/in/alexandrexyz/) 
-<br>
+<!-- [![Linkedin Badge](https://img.shields.io/badge/-Alexandre%20Costa%20Belettini-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/alexandrexyz/)](https://www.linkedin.com/in/alexandrexyz/)  -->
+<!-- <br> -->
 [![Gmail Badge](https://img.shields.io/badge/-costaalexandre45@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:costaalexandre45@gmail.com)](mailto:costaalexandre45@gmail.com)
 
 

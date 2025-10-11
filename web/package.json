@@ -10,7 +10,7 @@
     "lint": "eslint",
     "format": "prettier",
     "check": "prettier --write . && eslint --fix",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist -b gh-pages"
   },
   "dependencies": {
     "@radix-ui/react-slot": "^1.2.3",

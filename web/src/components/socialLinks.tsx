@@ -1,5 +1,3 @@
-import React from 'react'
-
 type SocialItem = {
   href: string
   src: string

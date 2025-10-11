@@ -27,9 +27,10 @@ export function CarouselAvatar() {
       <CarouselContent>
         {images.map((image, index) => (
           <div
+            key={index}
             className="rounded-l-md  size-42 min-w-42 bg-contain bg-no-repeat bg-center border-gray-500 brightness-80"
             style={{ backgroundImage: `url(${image})` }}
-          ></div>
+          />
         ))}
       </CarouselContent>
     </Carousel>

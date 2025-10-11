@@ -15,6 +15,15 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      - name: Print workflow info for debugging
+        run: |
+          echo "Running workflow: .github/workflows/deploy.yml"
+          echo "GITHUB_REPOSITORY=$GITHUB_REPOSITORY"
+          echo "GITHUB_REF=$GITHUB_REF"
+          echo "GITHUB_SHA=$GITHUB_SHA"
+          echo "RUNNER_WORKSPACE=$RUNNER_WORKSPACE"
+          echo "publish_dir=./web/dist"
+
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
@@ -26,8 +35,32 @@ jobs:
       - name: Build
         run: npm run build
 
+      - name: List build output (debug)
+        run: |
+          echo "=== Listing ./dist ==="
+          ls -la ./dist || echo "dist not found"
+          du -sh ./dist || true
+
+      - name: Check publish_dir exists (debug)
+        run: |
+          if [ -d "./dist" ]; then
+            echo "Publish directory exists: ./dist"
+          else
+            echo "Publish directory missing: ./dist"
+            echo "Workspace files:"
+            ls -la
+          fi
+
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./web/dist
+
+      - name: Confirm gh-pages commit & Pages URL (debug)
+        run: |
+          echo "=== Remote gh-pages commit ==="
+          git ls-remote --heads origin gh-pages || echo "gh-pages branch not found on remote"
+          owner=$(echo $GITHUB_REPOSITORY | cut -d/ -f1)
+          repo=$(echo $GITHUB_REPOSITORY | cut -d/ -f2)
+          echo "Possible GitHub Pages URL: https://$owner.github.io/$repo"

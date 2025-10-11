@@ -5,7 +5,7 @@ import linkedin from '../assets/icons/linkedin.svg'
 import discord from '../assets/icons/discord.svg'
 import { CarouselAvatar } from '@/components/carousselAvatar'
 
-export const Route = createFileRoute('/AlexandreXYZ')({
+export const Route = createFileRoute('/')({
   component: App,
 })
 

@@ -13,7 +13,7 @@ const images = [maskClassic, mask1, mask6, mask7]
 
 export function CarouselAvatar() {
   const plugin = React.useRef(
-    Autoplay({ delay: 10000, stopOnInteraction: true }),
+    Autoplay({ delay: 6000, stopOnInteraction: false }),
   )
 
   return (

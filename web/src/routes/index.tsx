@@ -29,9 +29,9 @@ const items = [
 
 function App() {
   return (
-    <div className="relative bg-gray-950 w-full h-screen text-gray-400 p-4">
-      <div className="rounded-full mx-auto size-42  brightness-75">
-        <CarouselAvatar></CarouselAvatar>
+    <div className="relative bg-gray-950 w-full h-screen text-gray-300 p-8">
+      <div className="rounded-full mx-auto size-42 brightness-75 mt-8">
+        <CarouselAvatar />
       </div>
       <h1 className="text-center text-2xl my-2 font-medium ">Alexandre XYZ</h1>
       <SocialLinks items={items} />

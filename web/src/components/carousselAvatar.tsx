@@ -1,8 +1,8 @@
 'use client'
 
-import * as React from 'react'
 import Autoplay from 'embla-carousel-autoplay'
 
+import { useRef } from 'react'
 import maskClassic from '../assets/masks/mask-classic.jpg'
 import mask1 from '../assets/masks/mask1.png'
 import mask6 from '../assets/masks/mask6.png'
@@ -12,8 +12,8 @@ import { Carousel, CarouselContent } from '@/components/ui/carousel'
 const images = [maskClassic, mask1, mask6, mask7]
 
 export function CarouselAvatar() {
-  const plugin = React.useRef(
-    Autoplay({ delay: 6000, stopOnInteraction: false }),
+  const plugin = useRef(
+    Autoplay({ delay: 6000, stopOnInteraction: false, playOnInit: true }),
   )
 
   return (
@@ -21,8 +21,6 @@ export function CarouselAvatar() {
       opts={{ loop: true }}
       plugins={[plugin.current]}
       className="w-full size-42"
-      onMouseEnter={plugin.current.stop}
-      onMouseLeave={plugin.current.reset}
     >
       <CarouselContent>
         {images.map((image, index) => (

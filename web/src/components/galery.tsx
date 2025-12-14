@@ -68,46 +68,45 @@ export const Galery = () => {
         .catch(() => {})
     }
   }
+  console.log({ galeryImages })
 
   return (
     <ul className="columns-1  sm:columns-2 lg:columns-3  gap-4   lg:w-200 mx-auto">
-      <Suspense fallback={<div>Loading...</div>}>
-        {galeryImages.map((image) => (
-          <Dialog>
-            <DialogTrigger asChild>
-              <li key={image.title} className="mb-4 break-inside-avoid">
-                <img
-                  src={image.src}
-                  alt={image.title}
-                  className="h-full hover:-translate-y-2 cursor-pointer transition mx-auto object-fill"
-                />
-              </li>
-            </DialogTrigger>
-            <DialogContent className="border-gray-700 border-2 sm:max-w-106 bg-gray-950 text-gray-300">
-              <DialogHeader className="gap-6">
-                <DialogTitle className="text-center">{image.title}</DialogTitle>
-                <DialogDescription
-                  onClick={() => handleCopyDescription(image.description)}
-                  title="Click to copy description"
-                  className="italic cursor-pointer"
-                >
-                  <Tooltip open={copyTooltipOpen}>
-                    <TooltipTrigger
-                      title=""
-                      className="cursor-pointer focus-visible:outline-none"
-                    >
-                      {image.description}
-                    </TooltipTrigger>
-                    <TooltipContent className="fill-green-400 bg-green-400">
-                      <div className="rounded-md text-gray-950 ">Copiado!</div>
-                    </TooltipContent>
-                  </Tooltip>
-                </DialogDescription>
-              </DialogHeader>
-            </DialogContent>
-          </Dialog>
-        ))}
-      </Suspense>
+      {galeryImages.map((image) => (
+        <Dialog>
+          <DialogTrigger asChild>
+            <li key={image.title} className="mb-4 break-inside-avoid">
+              <img
+                src={image.src}
+                alt={image.title}
+                className="h-full hover:-translate-y-2 cursor-pointer transition mx-auto object-fill"
+              />
+            </li>
+          </DialogTrigger>
+          <DialogContent className="border-gray-700 border-2 sm:max-w-106 bg-gray-950 text-gray-300">
+            <DialogHeader className="gap-6">
+              <DialogTitle className="text-center">{image.title}</DialogTitle>
+              <DialogDescription
+                onClick={() => handleCopyDescription(image.description)}
+                title="Click to copy description"
+                className="italic cursor-pointer"
+              >
+                <Tooltip open={copyTooltipOpen}>
+                  <TooltipTrigger
+                    title=""
+                    className="cursor-pointer focus-visible:outline-none"
+                  >
+                    {image.description}
+                  </TooltipTrigger>
+                  <TooltipContent className="fill-green-400 bg-green-400">
+                    <div className="rounded-md text-gray-950 ">Copiado!</div>
+                  </TooltipContent>
+                </Tooltip>
+              </DialogDescription>
+            </DialogHeader>
+          </DialogContent>
+        </Dialog>
+      ))}
     </ul>
   )
 }

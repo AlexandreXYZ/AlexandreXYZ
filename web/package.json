@@ -33,7 +33,6 @@
     "tailwindcss": "^4.0.6"
   },
   "devDependencies": {
-    "@rollup/rollup-win32-x64-msvc": "^4.53.3",
     "@tanstack/eslint-config": "^0.3.0",
     "@testing-library/dom": "^10.4.0",
     "@testing-library/react": "^16.2.0",
@@ -41,6 +40,7 @@
     "@types/react": "^19.0.8",
     "@types/react-dom": "^19.0.3",
     "@vitejs/plugin-react": "^5.0.4",
+    "rollup": "4.24.0",
     "gh-pages": "^6.3.0",
     "jsdom": "^27.0.0",
     "prettier": "^3.5.3",

@@ -4,6 +4,7 @@ import github from '../assets/icons/github.svg'
 import linkedin from '../assets/icons/linkedin.svg'
 import discord from '../assets/icons/discord.svg'
 import { CarouselAvatar } from '@/components/carousselAvatar'
+import { Galery } from '@/components/galery'
 
 export const Route = createFileRoute('/')({
   component: App,
@@ -29,12 +30,19 @@ const items = [
 
 function App() {
   return (
-    <div className="relative bg-gray-950 w-full h-screen text-gray-300 p-8">
+    <div className=" bg-gray-950 w-full min-h-screen text-gray-300 p-8">
       <div className="rounded-full mx-auto size-42 brightness-75 mt-8">
         <CarouselAvatar />
       </div>
       <h1 className="text-center text-2xl my-2 font-medium ">Alexandre XYZ</h1>
       <SocialLinks items={items} />
+      <div className="w-full">
+        <h2 className="text-center text-2xl my-2 font-medium mt-16 mb-8">
+          Galeria
+        </h2>
+
+        <Galery />
+      </div>
     </div>
   )
 }

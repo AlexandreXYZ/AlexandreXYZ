@@ -1,24 +1,21 @@
-"use client";
+'use client'
 
-import Autoplay from "embla-carousel-autoplay";
+import Autoplay from 'embla-carousel-autoplay'
 
-import { useRef } from "react";
-import maskClassic from "../assets/masks/mask-classic.jpg";
-import mask1 from "../assets/masks/mask1.png";
-import mask6 from "../assets/masks/mask6.png";
-import mask7 from "../assets/masks/mask7.png";
-import { Carousel, CarouselContent } from "@/components/ui/carousel";
+import { useRef } from 'react'
+import maskClassic from '../assets/masks/mask-classic.jpg'
+import mask1 from '../assets/masks/mask1.png'
+import mask6 from '../assets/masks/mask6.png'
+import mask7 from '../assets/masks/mask7.png'
+import { Carousel, CarouselContent } from '@/components/ui/carousel'
 
-const images = [maskClassic, mask1, mask6, mask7];
+const images = [maskClassic, mask1, mask6, mask7]
 
 export function CarouselAvatar() {
 	const plugin = useRef(
 		Autoplay({ delay: 6000, stopOnInteraction: false, playOnInit: true })
 	);
-<<<<<<< HEAD
-=======
 
->>>>>>> aff11c11218a25da8518fd3d31dd56001c95290e
 	return (
 		<Carousel
 			opts={{ loop: true }}
@@ -29,11 +26,7 @@ export function CarouselAvatar() {
 				{images.map((image, index) => (
 					<div
 						key={index}
-<<<<<<< HEAD
-						className="rounded-md size-42 min-w-42 bg-contain bg-no-repeat bg-center border-gray-500 brightness-90"
-=======
 						className="rounded-l-md  size-42 min-w-42 bg-contain bg-no-repeat bg-center border-gray-500 brightness-80"
->>>>>>> aff11c11218a25da8518fd3d31dd56001c95290e
 						style={{ backgroundImage: `url(${image})` }}
 					/>
 				))}

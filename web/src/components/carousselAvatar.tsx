@@ -15,6 +15,10 @@ export function CarouselAvatar() {
 	const plugin = useRef(
 		Autoplay({ delay: 6000, stopOnInteraction: false, playOnInit: true })
 	);
+<<<<<<< HEAD
+=======
+
+>>>>>>> aff11c11218a25da8518fd3d31dd56001c95290e
 	return (
 		<Carousel
 			opts={{ loop: true }}
@@ -25,7 +29,11 @@ export function CarouselAvatar() {
 				{images.map((image, index) => (
 					<div
 						key={index}
+<<<<<<< HEAD
 						className="rounded-md size-42 min-w-42 bg-contain bg-no-repeat bg-center border-gray-500 brightness-90"
+=======
+						className="rounded-l-md  size-42 min-w-42 bg-contain bg-no-repeat bg-center border-gray-500 brightness-80"
+>>>>>>> aff11c11218a25da8518fd3d31dd56001c95290e
 						style={{ backgroundImage: `url(${image})` }}
 					/>
 				))}

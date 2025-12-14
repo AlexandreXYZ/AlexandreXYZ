@@ -13,7 +13,7 @@ import {
   DialogTrigger,
 } from './ui/dialog'
 import { Tooltip, TooltipContent, TooltipTrigger } from './ui/tooltip'
-import { Suspense, useState } from 'react'
+import { useState } from 'react'
 
 const galeryImages = [
   {

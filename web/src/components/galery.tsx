@@ -13,7 +13,9 @@ import {
   DialogTrigger,
 } from './ui/dialog'
 import { Tooltip, TooltipContent, TooltipTrigger } from './ui/tooltip'
-import { useEffect, useMemo, useRef, useState } from 'react'
+import { useState } from 'react'
+import { cn } from '@/lib/utils'
+import { Skeleton } from './ui/skeleton'
 
 const galeryImages = [
   {
@@ -56,38 +58,7 @@ const galeryImages = [
 
 export const Galery = () => {
   const [copyTooltipOpen, setCopyTooltipOpen] = useState(false)
-  const [loadedCount, setLoadedCount] = useState(0)
-  const loadedUrlsRef = useRef<Set<string>>(new Set())
-
-  const totalImages = galeryImages.length
-  const allLoaded = totalImages === 0 ? true : loadedCount >= totalImages
-
-  const imageUrls = useMemo(() => galeryImages.map((img) => img.src), [])
-
-  useEffect(() => {
-    let cancelled = false
-
-    loadedUrlsRef.current = new Set()
-    setLoadedCount(0)
-
-    const markLoaded = (url: string) => {
-      if (cancelled) return
-      if (loadedUrlsRef.current.has(url)) return
-      loadedUrlsRef.current.add(url)
-      setLoadedCount((current) => current + 1)
-    }
-
-    for (const url of imageUrls) {
-      const img = new Image()
-      img.onload = () => markLoaded(url)
-      img.onerror = () => markLoaded(url)
-      img.src = url
-    }
-
-    return () => {
-      cancelled = true
-    }
-  }, [imageUrls])
+  const [imageToLoad, setImageToLoad] = useState<number>(galeryImages.length)
 
   const handleCopyDescription = (description: string) => {
     if (typeof navigator !== 'undefined' && navigator.clipboard?.writeText) {
@@ -101,24 +72,46 @@ export const Galery = () => {
     }
   }
 
-  if (!allLoaded) {
-    return (
-      <div className="mx-auto flex min-h-40 w-full items-center justify-center text-gray-300">
-        Carregando imagens... ({loadedCount}/{totalImages})
-      </div>
-    )
-  }
-
   return (
     <ul className="columns-1  sm:columns-2 lg:columns-3  gap-4   lg:w-200 mx-auto">
+      {imageToLoad > 0 && (
+        <>
+          <li className="mb-4 break-inside-avoid">
+            <Skeleton className="h-120 bg-gray-900" />
+          </li>
+          <li className="mb-4 break-inside-avoid">
+            <Skeleton className="h-50 bg-gray-900" />
+          </li>
+          <li className="mb-4 break-inside-avoid">
+            <Skeleton className=" h-60 bg-gray-900" />
+          </li>
+          <li className="mb-4 break-inside-avoid">
+            <Skeleton className=" h-80 bg-gray-900" />
+          </li>
+          <li className="mb-4 break-inside-avoid">
+            <Skeleton className=" h-50 bg-gray-900" />
+          </li>
+          <li className="mb-4 break-inside-avoid">
+            <Skeleton className=" h-100 bg-gray-900" />
+          </li>
+          <li className="mb-4 break-inside-avoid">
+            <Skeleton className="h-60 bg-gray-900" />
+          </li>
+        </>
+      )}
       {galeryImages.map((image) => (
-        <Dialog key={image.title}>
+        <Dialog>
           <DialogTrigger asChild>
-            <li className="mb-4 break-inside-avoid">
+            <li key={image.title} className="mb-4 break-inside-avoid">
               <img
                 src={image.src}
+                onLoad={() => setImageToLoad((prev) => prev - 1)}
                 alt={image.title}
-                className="h-full hover:-translate-y-2 cursor-pointer transition mx-auto object-fill"
+                className={cn(
+                  imageToLoad > 0
+                    ? 'h-0 opacity-0'
+                    : 'h-full hover:-translate-y-2 cursor-pointer transition mx-auto object-fill',
+                )}
               />
             </li>
           </DialogTrigger>

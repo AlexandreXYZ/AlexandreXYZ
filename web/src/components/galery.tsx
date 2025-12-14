@@ -13,7 +13,7 @@ import {
   DialogTrigger,
 } from './ui/dialog'
 import { Tooltip, TooltipContent, TooltipTrigger } from './ui/tooltip'
-import { useState } from 'react'
+import { useEffect, useMemo, useRef, useState } from 'react'
 
 const galeryImages = [
   {
@@ -56,6 +56,38 @@ const galeryImages = [
 
 export const Galery = () => {
   const [copyTooltipOpen, setCopyTooltipOpen] = useState(false)
+  const [loadedCount, setLoadedCount] = useState(0)
+  const loadedUrlsRef = useRef<Set<string>>(new Set())
+
+  const totalImages = galeryImages.length
+  const allLoaded = totalImages === 0 ? true : loadedCount >= totalImages
+
+  const imageUrls = useMemo(() => galeryImages.map((img) => img.src), [])
+
+  useEffect(() => {
+    let cancelled = false
+
+    loadedUrlsRef.current = new Set()
+    setLoadedCount(0)
+
+    const markLoaded = (url: string) => {
+      if (cancelled) return
+      if (loadedUrlsRef.current.has(url)) return
+      loadedUrlsRef.current.add(url)
+      setLoadedCount((current) => current + 1)
+    }
+
+    for (const url of imageUrls) {
+      const img = new Image()
+      img.onload = () => markLoaded(url)
+      img.onerror = () => markLoaded(url)
+      img.src = url
+    }
+
+    return () => {
+      cancelled = true
+    }
+  }, [imageUrls])
 
   const handleCopyDescription = (description: string) => {
     if (typeof navigator !== 'undefined' && navigator.clipboard?.writeText) {
@@ -68,14 +100,21 @@ export const Galery = () => {
         .catch(() => {})
     }
   }
-  console.log({ galeryImages })
+
+  if (!allLoaded) {
+    return (
+      <div className="mx-auto flex min-h-40 w-full items-center justify-center text-gray-300">
+        Carregando imagens... ({loadedCount}/{totalImages})
+      </div>
+    )
+  }
 
   return (
     <ul className="columns-1  sm:columns-2 lg:columns-3  gap-4   lg:w-200 mx-auto">
       {galeryImages.map((image) => (
-        <Dialog>
+        <Dialog key={image.title}>
           <DialogTrigger asChild>
-            <li key={image.title} className="mb-4 break-inside-avoid">
+            <li className="mb-4 break-inside-avoid">
               <img
                 src={image.src}
                 alt={image.title}

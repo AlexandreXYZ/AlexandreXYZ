@@ -11,7 +11,7 @@
     "format": "prettier",
     "check": "prettier --write . && eslint --fix",
     "deploy": "gh-pages -d dist -b gh-pages",
-    "postbuild": "copy dist/index.html dist/404.html"
+    "postbuild": "cp dist/index.html dist/404.html"
   },
   "dependencies": {
     "@radix-ui/react-dialog": "^1.1.15",

@@ -15,7 +15,7 @@ export default function SocialLinks({ items }: { items: Array<SocialItem> }) {
             alt={item.alt}
             className={
               item.className ??
-              'size-8 bg-gray-500 border-2 border-gray-500 rounded-full hover:opacity-80'
+              'size-8 bg-gray-300 border-2 border-gray-300 rounded-full hover:opacity-80'
             }
           />
         </a>

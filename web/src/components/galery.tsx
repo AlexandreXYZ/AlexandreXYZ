@@ -73,14 +73,14 @@ export const Galery = () => {
   }
 
   return (
-    <ul className="columns-1  sm:columns-2 lg:columns-3  gap-4   lg:w-200 mx-auto">
+    <ul className="columns-1 md:columns-3 gap-2 lg:w-200 mx-auto">
       <Activity mode={imageToLoad > 0 ? 'visible' : 'hidden'}>
         <GaleryLoading />
       </Activity>
       {galeryImages.map((image) => (
         <Dialog>
           <DialogTrigger asChild>
-            <li key={image.title} className="mb-4 break-inside-avoid">
+            <li key={image.title} className="mb-2 break-inside-avoid">
               <img
                 src={image.src}
                 onLoad={() => setImageToLoad((prev) => prev - 1)}
@@ -88,14 +88,16 @@ export const Galery = () => {
                 className={cn(
                   imageToLoad > 0
                     ? 'h-0 opacity-0'
-                    : 'h-full hover:-translate-y-2 cursor-pointer transition mx-auto object-fill',
+                    : 'h-full hover:-translate-y-2 cursor-pointer transition mx-auto object-fill border-4 rounded-xs border-gray-800',
                 )}
               />
             </li>
           </DialogTrigger>
-          <DialogContent className="border-gray-700 border-2 sm:max-w-106 bg-gray-950 text-gray-300">
-            <DialogHeader className="gap-6">
-              <DialogTitle className="text-center">{image.title}</DialogTitle>
+          <DialogContent className="border-gray-700 border-2 sm:max-w-150 bg-gray-950 text-gray-300">
+            <DialogHeader className="gap-4">
+              <DialogTitle className="text-center text-2xl font-semibold">
+                {image.title}
+              </DialogTitle>
               <DialogDescription
                 onClick={() => handleCopyDescription(image.description)}
                 title="Click to copy description"
@@ -104,12 +106,14 @@ export const Galery = () => {
                 <Tooltip open={copyTooltipOpen}>
                   <TooltipTrigger
                     title=""
-                    className="cursor-pointer focus-visible:outline-none"
+                    className="cursor-pointer focus-visible:outline-none text-lg font-light text-gray-400"
                   >
                     {image.description}
                   </TooltipTrigger>
                   <TooltipContent className="fill-green-400 bg-green-400">
-                    <div className="rounded-md text-gray-950 ">Copiado!</div>
+                    <div className="rounded-md text-gray-950 font-semibold ">
+                      Copiado!
+                    </div>
                   </TooltipContent>
                 </Tooltip>
               </DialogDescription>

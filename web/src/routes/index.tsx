@@ -34,13 +34,12 @@ function App() {
       <div className="rounded-full mx-auto size-42 brightness-75 mt-8">
         <CarouselAvatar />
       </div>
-      <h1 className="text-center text-2xl my-2 font-medium ">Alexandre XYZ</h1>
+      <h1 className="text-center text-2xl my-4 font-medium  ">Alexandre XYZ</h1>
       <SocialLinks items={items} />
       <div className="w-full">
-        <h2 className="text-center text-2xl my-2 font-medium mt-16 mb-8">
+        <h2 className="text-center text-3xl my-2 font-medium mt-16 mb-8">
           Galeria
         </h2>
-
         <Galery />
       </div>
     </div>

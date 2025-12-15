@@ -13,7 +13,7 @@ import {
   DialogTrigger,
 } from './ui/dialog'
 import { Tooltip, TooltipContent, TooltipTrigger } from './ui/tooltip'
-import { useState } from 'react'
+import { Activity, useState } from 'react'
 import { cn } from '@/lib/utils'
 import { Skeleton } from './ui/skeleton'
 
@@ -74,31 +74,9 @@ export const Galery = () => {
 
   return (
     <ul className="columns-1  sm:columns-2 lg:columns-3  gap-4   lg:w-200 mx-auto">
-      {imageToLoad > 0 && (
-        <>
-          <li className="mb-4 break-inside-avoid">
-            <Skeleton className="h-120 bg-gray-900" />
-          </li>
-          <li className="mb-4 break-inside-avoid">
-            <Skeleton className="h-50 bg-gray-900" />
-          </li>
-          <li className="mb-4 break-inside-avoid">
-            <Skeleton className=" h-60 bg-gray-900" />
-          </li>
-          <li className="mb-4 break-inside-avoid">
-            <Skeleton className=" h-80 bg-gray-900" />
-          </li>
-          <li className="mb-4 break-inside-avoid">
-            <Skeleton className=" h-50 bg-gray-900" />
-          </li>
-          <li className="mb-4 break-inside-avoid">
-            <Skeleton className=" h-100 bg-gray-900" />
-          </li>
-          <li className="mb-4 break-inside-avoid">
-            <Skeleton className="h-60 bg-gray-900" />
-          </li>
-        </>
-      )}
+      <Activity mode={imageToLoad > 0 ? 'visible' : 'hidden'}>
+        <GaleryLoading />
+      </Activity>
       {galeryImages.map((image) => (
         <Dialog>
           <DialogTrigger asChild>
@@ -142,3 +120,29 @@ export const Galery = () => {
     </ul>
   )
 }
+
+const GaleryLoading = () => (
+  <>
+    <li className="mb-4 break-inside-avoid">
+      <Skeleton className="h-120 bg-gray-900" />
+    </li>
+    <li className="mb-4 break-inside-avoid">
+      <Skeleton className="h-50 bg-gray-900" />
+    </li>
+    <li className="mb-4 break-inside-avoid">
+      <Skeleton className=" h-60 bg-gray-900" />
+    </li>
+    <li className="mb-4 break-inside-avoid">
+      <Skeleton className=" h-80 bg-gray-900" />
+    </li>
+    <li className="mb-4 break-inside-avoid">
+      <Skeleton className=" h-50 bg-gray-900" />
+    </li>
+    <li className="mb-4 break-inside-avoid">
+      <Skeleton className=" h-100 bg-gray-900" />
+    </li>
+    <li className="mb-4 break-inside-avoid">
+      <Skeleton className="h-60 bg-gray-900" />
+    </li>
+  </>
+)

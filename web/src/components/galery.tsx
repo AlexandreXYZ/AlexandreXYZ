@@ -73,7 +73,7 @@ export const Galery = () => {
   }
 
   return (
-    <ul className="columns-1 md:columns-3 gap-2 lg:w-200 mx-auto">
+    <ul className="columns-1 sm:columns-2 lg:columns-3 gap-2 lg:w-200 mx-auto">
       <Activity mode={imageToLoad > 0 ? 'visible' : 'hidden'}>
         <GaleryLoading />
       </Activity>
@@ -88,7 +88,7 @@ export const Galery = () => {
                 className={cn(
                   imageToLoad > 0
                     ? 'h-0 opacity-0'
-                    : 'h-full hover:-translate-y-2 cursor-pointer transition mx-auto object-fill border-4 rounded-xs border-gray-800',
+                    : 'h-full w-full hover:-translate-y-2 cursor-pointer transition mx-auto object-fill border-4 rounded-xs border-gray-800',
                 )}
               />
             </li>
